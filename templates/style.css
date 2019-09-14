@@ -101,15 +101,14 @@ p {
 
 p.start-chapter {
   text-indent: 0;
-  margin:  0 0 0;
-  margin: calc(4 * 4vw * 1.50) auto 0;
+  margin: calc(5 * 4vw * 1.50 - 2px) auto 0;
 }
 
 p.start-chapter:first-letter {
   display: inline-block;
   margin: 0 1vw 0 0;
   float: left;
-  font-size: calc( 3 * 4vw ); /* three times normal size */
+  font-size: calc(3 * 4vw); /* three times normal size */
   line-height: calc(2 * 4vw * 1.50 * 0.95);
   font-family: 'Berkshire Swash', cursive;
 }
@@ -263,7 +262,7 @@ hr::before {
   max-height: calc(17 * (4vw * 1.5) + 4vw);
   break-after: right;
   display:inline-block;
-  /*background: aliceblue;*/  /* enable to see the maximum staging area */
+  /* background: aliceblue; */  /* enable to see the maximum staging area */
 }
 
 .flex {
